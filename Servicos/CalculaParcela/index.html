@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula Parcela</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CalculaParcela/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="seta" onclick="VoltarMenu()">←</h1>
+        <h1 class="texto1">Ágille Soluções</h1>
+    </header>
+
+    <div class="container">
+        <div class="conteudo">
+            <h1>Calcula Parcela</h1>
+            <input id="qtp" type="text" placeholder="Quantidade De Parcelas" value="84">
+            <input id="dtaI" type="text" placeholder="Ano/Mês Do Desconto" value="2023/01">
+            <input id="dtaH" type="text" placeholder="Ano/Mês Atual" value="2023/09">
+            <button onclick="busca()">Calcular</button>
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+
+
+
+    <script src="../CalculaParcela/main.js"></script>
+</body>
+</html>

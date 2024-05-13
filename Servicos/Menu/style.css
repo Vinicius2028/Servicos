@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(14, 23, 143, 0.829);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.815);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5em rgba(0, 0, 0, 0.815);
+}
+
+.texto1{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 15px;
+}
+
+.texto2{
+    color: white;
+    font-size: 19px;
+    font-family: 'Kanit', sans-serif;
+    padding-right: 15px;
+}
+
+/* main da pagina*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 150px;
+}
+
+@media (max-width: 920px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+}
+
+.opcao{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 15px;
+}
+
+button{
+    width: 270px;
+    padding: 15px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.849);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+hr{
+    color: black;
+}
+
+p{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    margin-right: 10px;
+}
+
+.nome{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Cep</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1 class="seta" onclick="VoltarMenu()">←</h1>
+        <h1 class="texto1">Ágille Soluções</h1>
+    </header>
+    
+    <div class="conteiner">
+        <div class="conteudo">
+            <h3>Busca Cep</h3><br>
+
+        <label for="fname">Digite um CEP:</label><br>
+        <input type="text" id="cep" maxlength="9"><br><br>
+
+        <button class="button" onclick="buscarCEP()">Buscar</button>
+        
+        <div>
+            <p id="CEP">Cep Não Informado!</p>
+            <p id="RUA"></p>
+            <p id="BAIRRO"></p>
+            <p id="CIDADE"></p>
+            <p id="ESTADO"></p> 
+            <p class="DDD" id="DDD"></p>
+        </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

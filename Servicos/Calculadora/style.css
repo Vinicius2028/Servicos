@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(14, 23, 143, 0.829);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.815);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5em rgba(0, 0, 0, 0.815);
+}
+
+.texto1{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 15px;
+    margin-right: 15px;
+}
+
+.seta{
+    color: white;
+    margin-left: 25px;
+    cursor: pointer;
+    font-size: 40px;
+}

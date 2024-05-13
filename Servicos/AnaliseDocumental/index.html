@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../AnaliseDocumental/style.css">
+</head>
+<body>
+    <title>Análise Documental</title>
+</head>
+<body>
+    <header>
+        <h1 class="seta" onclick="VoltarMenu()">←</h1>
+        <h1 class="texto1">Ágille Soluções</h1>
+    </header>
+
+    <div class="container">
+        <div class="conteudo">
+            <h2 class="text">Pendências e Reprovações</h2>
+            <p class="text1">Busque qual e a pendência ou reprovação e descubra o motivo:</p>
+            <select id="selecao">
+                <option value="0">Selecione a Opção</option>
+                <option value="1">Rg não anexado</option>
+                <option value="2">Cep invalido</option>
+		<option value="3">Conta recebe por cartão mag.</option>
+		<option value="4">Conta diferente do In100</option>
+		<option value="5">Numero da conta incorreta</option>
+		<option value="6">Beneficio menor que idade</option>
+		<option value="7">Cliente não assina</option>
+		<option value="8">Campos não preenchidos</option>
+		<option value="9">Documento fora dos padrões</option>
+		<option value="10">Cliente com representante</option>
+		<option value="11">Beneficio 21</option>
+		<option value="12">Cep diferente do DDD</option>
+		<option value="13">Numero do contrato incorreto</option>
+		
+
+
+
+
+
+
+
+
+            </select>
+            <button onclick="Buscar()">Buscar</button>
+
+            <p id="motivo"></p>
+            <p id="frase"></p>
+        </div>
+    </div>
+
+
+    <script src="../AnaliseDocumental/main.js"></script>
+</body>
+</html>
