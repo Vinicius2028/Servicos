@@ -18,7 +18,7 @@ function busca(){
     const soma = diffInDays / 30.417;
     const soma2 = Math.round(soma)
     const soma3 = qtp - soma2;
-    const total = soma3 - 1;
+    const total = soma3;
 
     document.getElementById('resultado').innerHTML = total
 }
